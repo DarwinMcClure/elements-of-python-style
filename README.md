@@ -1,4 +1,4 @@
-# The Elements of Python Style
+##The Elements of Python Style
 
 This document goes beyond PEP8 to cover the core of what I think of as great Python style. It is opinionated, but not too opinionated. It goes beyond mere issues of syntax and module layout, and into areas of paradigm, organization, and architecture. I hope it can be a kind of condensed ["Strunk & White"][strunk-white] for Python code.
 
@@ -6,7 +6,7 @@ This document goes beyond PEP8 to cover the core of what I think of as great Pyt
 
 # Table of Contents
 
-  * [The Elements of Python Style](#the-elements-of-python-style)
+    [The Elements of Python Style](#the-elements-of-python-style)
     * [Follow Most PEP8 Guidelines](#follow-most-pep8-guidelines)
     * [Flexibility on Line Length](#flexibility-on-line-length)
     * [Consistent Naming](#consistent-naming)
@@ -52,7 +52,7 @@ Many of these were adapted from [the Pocoo team][pocoo].
 - Class names: `CamelCase`, and capitalize acronyms: `HTTPWriter`, not `HttpWriter`.
 - Variable names: `lower_with_underscores`.
 - Method and function names: `lower_with_underscores`.
-- Modules: `lower_with_underscores.py`. (But, prefer names that don't need underscores!)
+- Modules: `lower_with_underscores.py`. (But, prefer names that don't need underscores#)
 - Constants: `UPPER_WITH_UNDERSCORES`.
 - Precompiled regular expressions: `name_re`.
 
@@ -678,3 +678,4 @@ $ python
 Like good Python style? Then perhaps you'd like to [work on our team of Pythonistas][tweet] at Parse.ly!
 
 [tweet]: https://twitter.com/amontalenti/status/682968375702716416
+ 
